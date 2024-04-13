@@ -1,5 +1,5 @@
 let dino = document.querySelector("#dino");
-let cactus = document.querySelector("#cactus");
+const cactus = document.querySelector("#cactus");
 let board = document.querySelector(".board");
 let isAlive = true;
 function jump()
