@@ -39,9 +39,9 @@ let checkalive = setInterval(function  ()
                 cactus.style.animationPlayState = "paused";
                 isAlive = false;
             }
-            if(cactusLeft===90)
+            if(cactusLeft<90 && cactusLeft>50 && isAlive===true)
             {
-                score +=10;
+                score +=1;
                 updateScore();
             }
         },10);
